@@ -57,7 +57,7 @@ heading.grid(row=0, column=1)
 
 # adding logo 
 canvas = Canvas(width=200, height=160)
-logo_img = PhotoImage(file = 'logo.png')
+logo_img = PhotoImage(file = r"C:\Users\karis\OneDrive\Desktop\Codsoft internship\CODSOFT\PasswordGenerator\logo.png")
 canvas.create_image(100, 80, image = logo_img )
 canvas.grid(row=1, column=1, padx=10, pady=10)
 
